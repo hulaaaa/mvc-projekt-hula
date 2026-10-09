@@ -4,7 +4,7 @@ Projekt zaliczeniowy – Programowanie aplikacji internetowych MVC
 Autor: Dmytro Hula, nr albumu 164497
 
 ## Temat
-Aplikacja do obsługi małego kina. Pokazuje repertuar (filmy i seanse) i pozwala zarezerwować miejsca na wybrany seans. Administrator może dodawać filmy i seanse oraz przeglądać rezerwacje.
+Aplikacja do obsługi małego kina. Pokazuje repertuar (filmy i seanse) i pozwala zarezerwować miejsca na wybrany seans. Pracownik kina dodaje filmy, planuje seanse i przegląda rezerwacje.
 
 ## Struktura repozytorium
 - czesc1-servlet-jsp – aplikacja Servlet + JSP + JSTL (Tomcat 10.1)
