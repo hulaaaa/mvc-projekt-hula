@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kino</title>
+</head>
+<body>
+<h1>Kino – część I</h1>
+
+<p><a href="start">Zobacz repertuar (GET /start)</a></p>
+
+<form action="start" method="post">
+    <p><label>Imię: <input type="text" name="imie"></label></p>
+    <p>
+        <label>Film:
+            <select name="film">
+                <option>Diuna: Część druga</option>
+                <option>Oppenheimer</option>
+                <option>Seksmisja</option>
+            </select>
+        </label>
+    </p>
+    <button type="submit">Wyślij (POST /start)</button>
+</form>
+</body>
+</html>
