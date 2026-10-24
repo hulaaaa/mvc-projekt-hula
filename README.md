@@ -20,3 +20,10 @@ mvn clean package
 ```
 
 Plik `target/kino.war` skopiować do `[tomcat]/webapps`, uruchomić Tomcat (`bin/startup.sh` lub `bin\startup.bat`) i wejść na http://localhost:8080/kino/
+
+Adresy części I:
+- http://localhost:8080/kino/ – strona startowa
+- http://localhost:8080/kino/start – repertuar (GET) i formularz imienia (POST)
+- http://localhost:8080/kino/filmy/add – dodawanie filmu
+- http://localhost:8080/kino/info – informacje o żądaniu
+- http://localhost:8080/kino/lifecycle – licznik żądań servletu

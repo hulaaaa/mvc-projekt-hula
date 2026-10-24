@@ -31,7 +31,7 @@ public class StartServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        req.setCharacterEncoding("UTF-8"); // must be before getParameter
+        req.setCharacterEncoding("UTF-8");
         String imie = req.getParameter("imie");
         String film = req.getParameter("film");
 
@@ -51,7 +51,6 @@ public class StartServlet extends HttpServlet {
         out.println("</body></html>");
     }
 
-    // user input goes straight into html
     private static String escape(String s) {
         return s.replace("&", "&amp;")
                 .replace("<", "&lt;")
